@@ -22,4 +22,4 @@ jobs:
         run: javac -d ./bin ./src/*.java
 
       - name: Run Java application
-        run: java -cp ./bin AppClass
+        run: java -cp ./bin App
