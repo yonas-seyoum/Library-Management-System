@@ -1,10 +1,10 @@
-name: Java Build and Test
+name: Development Branch Build and Test
 
 on:
   push:
-    branches: [main]
+    branches: [development]
   pull_request:
-    branches: [main]
+    branches: [development]
     types: [opened, synchronize, reopened]
   workflow_dispatch:
 
