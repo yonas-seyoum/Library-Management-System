@@ -18,6 +18,22 @@ public class Patron {
         return name;
     }
 
+    void setEmail(String email) {
+        this.email = email;
+    }
+
+    String getEmail() {
+        return email;
+    }
+
+    void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    int getPhoneNumber() {
+        return phoneNumber;
+    }
+
     void borrowBook() {
 
     }
