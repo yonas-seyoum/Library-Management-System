@@ -1,10 +1,17 @@
 public class Book {
-    int Id;
+    int id;
     String title, genre, author;
-    boolean available = true;
+    boolean available;
+
+    public Book(int id, String title, String author, boolean available) {
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.available = available;
+    }
 
     int getId() {
-        return Id;
+        return id;
     }
 
     String getTitle() {
