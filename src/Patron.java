@@ -2,8 +2,16 @@ public class Patron {
     int id, phoneNumber;
     String name, email;
 
-    int getPatrinId() {
+    void setPatronId(int id) {
+        this.id = id;
+    }
+
+    int getPatronId() {
         return id;
+    }
+
+    void setPatronName(String name) {
+        this.name = name;
     }
 
     String getPatronName() {

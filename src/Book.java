@@ -10,23 +10,35 @@ public class Book {
         this.available = available;
     }
 
+    void setId(int id) {
+        this.id = id;
+    }
+
     int getId() {
         return id;
+    }
+
+    void setTitle(String title) {
+        this.title = title;
     }
 
     String getTitle() {
         return title;
     }
 
-    String genre() {
+    void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    String getGenre() {
         return genre;
+    }
+
+    void setIsAvailable(boolean available) {
+        this.available = available;
     }
 
     boolean isAvailable() {
         return available;
-    }
-
-    void setAvailable() {
-        System.out.println(available);
     }
 }
